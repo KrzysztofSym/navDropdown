@@ -152,6 +152,7 @@ nav:before {
 
 nav ul li {
     text-shadow: -16px 11px 15px rgba(22, 22, 22, 1);
+    text-shadow: -23px 15px 14px rgba(22, 22, 22, 1);
     position: relative;
     cursor: pointer;
     padding-bottom: 1rem;
@@ -205,7 +206,7 @@ nav ul li:hover:before {
     transition: .2s;
 }
 
-.dropdown:hover i {
+.dropdown:hover .fa-caret-down {
     transform: translate(-50%, 0) scale(1);
 
 }
@@ -224,6 +225,7 @@ nav ul li:hover:before {
     transition: opacity .15s ease-in-out, transform .15s ease-in-out;
     z-index: 2;
     text-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .item {
